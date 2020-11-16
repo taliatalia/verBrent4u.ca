@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.header {
+background-image: url("https://images.podigee.com/0x,sWqB8fFUVtIBm4GRaTpXNILJcpr6p6HeVvLvSujEIj_g=/https://cdn.podigee.com/uploads/u1546/5d463e16-8cd8-4b9e-b7b9-d6a0cad7beb1.jpg");
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 200px;
+  border-radius: 0px;
+  margin-right: 200px;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+h1 {
+font-size: 250%;
+	color: navy;
+    margin: auto;
+  text-align: left;
+  line-height: -2192px;  
+vertical-align: middle;
+}
+
+ul {
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #89ABE3FF;
+}
+.menu {
+margin:0px;
+padding: 0px;
+}
+.menu li {
+  float: left;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #98befa;
+  color:white
+}
+li a.active {
+  background-color: #98befa;
+  color:white;
+}
+
+.spacer {
+padding: 32px
+}
+.splash-stripe.overflow {
+    overflow: auto;
+    background: no-repeat right top #98befa;   
+}
+.splash__img {
+    width: 30%;
+    float: left;
+}
+img {   
+   max-width: 100%; 
+   height: auto; 
+   }
+.splash__textbox {
+    width: 30%;
+    float: left;
+   
+}
+.splash__desc {
+ border-style: none;
+  background-color: #98befa;
+ }
+  ul.splash_desc {
+  list-style-type: square;
+}
+.splash__textbox .splash__desc {
+    color: white;
+    }
+    
+    .rate {
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.spacer {
+padding: 32px
+}
+
+.title {
+
+    	margin-top: 9px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Rent4u.ca</h1>
+</div>
+<ul class="menu"> 
+ <li><a href="#Home">Home</a>
+  <li><a href="#Renters">Renters</a></li>
+  <li><a href="#Landlords">Landlords</a></li>
+  <li><a class="active" href="#Reviews">Reviews</a></li>
+  <li><a href="#Infomation">Information</a></li>
+  <li><a href="#About">About us</a></li>
+</ul>
+
+<div id="txt"></div>
+
+
+ <div class="spacer">
+ </div>
+<div class="splash-stripe overflow">
+   <div class="splash__img">
+      <a href="">
+       <img src="https://www.banglatoronto.ca/images/rent_house.jpg" alt="image on mega menu">                                    
+   </a>
+   </div>
+
+   <div class="splash__textbox">
+     <div class="splash__textbox_content gutter">
+     <div class="splash_desc">
+      <ul class="splash__desc">
+  <li>Owner:</li>
+  <li>Address:</li>
+  <li>Description:</li>
+</ul>
+     </div>
+   </div>
+ 
+</div>
+</div>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.583029199767!2d-120.31120498405022!3d50.672001979256706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537e2dba63d73eaf%3A0x8d6e7b6bda6e7736!2s1336%20Columbia%20St%2C%20Kamloops%2C%20BC%20V2C%202W7!5e0!3m2!1sen!2sca!4v1605411823155!5m2!1sen!2sca" width="600" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+
+
+<h2 class="title">Rating -</h2>
+
+  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+   <textarea id="txtMessage" rows="10" cols="100%" placeholder="What do you think about this property?"></textarea> <br>
+  
+
+ <div class="spacer">
+ </div>
+<div class="splash-stripe overflow">
+   <div class="splash__img">
+      <a href="">
+       <img src="https://pbs.twimg.com/profile_images/1036730403514736650/PCRxFiEt_400x400.jpg" alt="image on mega menu">                                            
+   </a>
+   </div>
+
+   <div class="splash__textbox">
+     <div class="splash__textbox_content gutter">
+     <div class="splash_desc">
+      <ul class="splash__desc">
+  <li>Name:</li>
+  <li>Phone number:</li>
+  <li>Email:</li>
+  <li>Address:</li>
+</ul>
+     </div>
+   </div>
+ 
+</div>
+</div>
+
+<body>
+<h2 class="title">Rating -</h2>
+  <div class="rate">
+  
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <textarea id="txtMessage" rows="10" cols="100%" placeholder="What do you think about this property's owner?"></textarea> <br>
+  
+</body>
+
+ <br><br><br><br>
+<form action="/action_page.php">
+<label class="title3rd" for="reviewrent4u">How is your experience with us?</label><br>
+
+<body>
+<h2 class="title">Rating -</h2>
+  <div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  </body>
+
+</body>
+<br>
+<textarea id="reviewrent4u" rows="10" cols="100%" placeholder="Share your thoughts here..."></textarea> <br>
+  </textarea>
+ <br>
+  <input type="submit" value="Post">
+</form>
+<style> 
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 0px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+}
+.title3rd {
+margin-bottom:36px;
+font-size: 28px;
+
+font-weight: 900;
+
+}
+</style>
+</body>
+</html>
